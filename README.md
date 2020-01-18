@@ -14,7 +14,7 @@
  并且创建了第一个Repository
  
  
- ![avatar](/Users/xiaoxue/Desktop/2020.1.14/123.png)
+ ![Image text](https://raw.githubusercontent.com/BangBangLaoDa/Test1/master/Picture/123.png)
  
  + 2020年1月18日
  
