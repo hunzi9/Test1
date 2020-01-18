@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d998d4ff-bdd1-4ba4-ac70-af03537db9d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/concurrency/BasicRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/BasicThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/BasicThreadJoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +41,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="Settings.Markdown" />
   </component>
   <component name="RunManager" selected="Application.BasicThreadJoin">
     <configuration name="BasicRunnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -179,10 +177,10 @@
       <screen x="0" y="23" width="1280" height="709" />
     </state>
     <state width="1238" height="175" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1579338779400" />
-    <state x="149" y="23" width="982" height="709" key="SettingsEditor" timestamp="1578972012174">
+    <state x="149" y="23" width="982" height="709" key="SettingsEditor" timestamp="1579342267711">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state x="149" y="23" width="982" height="709" key="SettingsEditor/0.23.1280.709@0.23.1280.709" timestamp="1578972012174" />
+    <state x="149" y="23" width="982" height="709" key="SettingsEditor/0.23.1280.709@0.23.1280.709" timestamp="1579342267711" />
     <state x="34" y="23" key="new project wizard" timestamp="1578988278216">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
