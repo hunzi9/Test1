@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d998d4ff-bdd1-4ba4-ac70-af03537db9d8" name="Default Changelist" comment="" />
+    <list default="true" id="d998d4ff-bdd1-4ba4-ac70-af03537db9d8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/Hello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collections/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/TwoSum.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,10 +22,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1WMs8xEVjTJypOgc3XPehnCcISP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -28,6 +37,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -35,7 +45,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Application.WordCounter">
+  <component name="RunManager" selected="Application.Hello">
     <configuration name="ArrayToList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collections.ArrayToList" />
       <module name="2020.1.14" />
@@ -62,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.ListSort" />
+    <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.Hello" />
       <module name="2020.1.14" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.*" />
+          <option name="PATTERN" value="generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Hello" />
         <item itemvalue="Application.WordCounter" />
         <item itemvalue="Application.SimpleDict" />
         <item itemvalue="Application.BasicMap" />
         <item itemvalue="Application.ArrayToList" />
-        <item itemvalue="Application.ListSort" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +143,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578970642769</updated>
-      <workItem from="1578970648471" duration="18513000" />
+      <workItem from="1578970648471" duration="18983000" />
     </task>
     <servers />
   </component>
@@ -153,22 +163,22 @@
       <screen x="0" y="23" width="1280" height="709" />
     </state>
     <state x="359" y="103" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.23.1280.709@0.23.1280.709" timestamp="1578971515168" />
-    <state width="1238" height="175" key="GridCell.Tab.0.bottom" timestamp="1579005804581">
+    <state width="1238" height="175" key="GridCell.Tab.0.bottom" timestamp="1579314376195">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="175" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1579005804581" />
-    <state width="1238" height="175" key="GridCell.Tab.0.center" timestamp="1579005804580">
+    <state width="1238" height="175" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1579314376195" />
+    <state width="1238" height="175" key="GridCell.Tab.0.center" timestamp="1579314376194">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="175" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1579005804580" />
-    <state width="1238" height="175" key="GridCell.Tab.0.left" timestamp="1579005804579">
+    <state width="1238" height="175" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1579314376194" />
+    <state width="1238" height="175" key="GridCell.Tab.0.left" timestamp="1579314376194">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="175" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1579005804579" />
-    <state width="1238" height="175" key="GridCell.Tab.0.right" timestamp="1579005804580">
+    <state width="1238" height="175" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1579314376194" />
+    <state width="1238" height="175" key="GridCell.Tab.0.right" timestamp="1579314376194">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="175" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1579005804580" />
+    <state width="1238" height="175" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1579314376194" />
     <state x="149" y="23" width="982" height="709" key="SettingsEditor" timestamp="1578972012174">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
