@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d998d4ff-bdd1-4ba4-ac70-af03537db9d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/BasicAtomic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/BasicDeamonThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/BasicExecutorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/BasicFolkJoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/BasicReentrantLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/BasicThreadPollExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/CallableExecutorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/DamoSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/DeadLockAnalysis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/ScheduleExecutorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/Sync1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/Sync2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/Sync4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,9 +55,14 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="Settings.Markdown" />
   </component>
-  <component name="RunManager" selected="Application.BasicThreadJoin">
-    <configuration name="BasicRunnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrency.BasicRunnable" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="concurrency" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.DamoSort">
+    <configuration name="BasicAtomic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrency.BasicAtomic" />
       <module name="2020.1.14" />
       <extension name="coverage">
         <pattern>
@@ -57,8 +74,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BasicThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrency.BasicThread" />
+    <configuration name="BasicFolkJoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrency.BasicFolkJoin" />
       <module name="2020.1.14" />
       <extension name="coverage">
         <pattern>
@@ -70,8 +87,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BasicThreadJoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrency.BasicThreadJoin" />
+    <configuration name="BasicReentrantLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrency.BasicReentrantLock" />
       <module name="2020.1.14" />
       <extension name="coverage">
         <pattern>
@@ -83,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.Hello" />
+    <configuration name="BasicThreadPollExecutor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrency.BasicThreadPollExecutor" />
       <module name="2020.1.14" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generics.*" />
+          <option name="PATTERN" value="concurrency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.WordCounter" />
+    <configuration name="DamoSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrency.DamoSort" />
       <module name="2020.1.14" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.*" />
+          <option name="PATTERN" value="concurrency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BasicThreadJoin" />
-        <item itemvalue="Application.BasicRunnable" />
-        <item itemvalue="Application.BasicThread" />
-        <item itemvalue="Application.Hello" />
-        <item itemvalue="Application.WordCounter" />
+        <item itemvalue="Application.DamoSort" />
+        <item itemvalue="Application.BasicFolkJoin" />
+        <item itemvalue="Application.BasicAtomic" />
+        <item itemvalue="Application.BasicReentrantLock" />
+        <item itemvalue="Application.BasicThreadPollExecutor" />
       </list>
     </recent_temporary>
   </component>
@@ -153,42 +170,46 @@
       <screen x="0" y="23" width="1280" height="709" />
     </state>
     <state x="240" y="43" key="#Project_Structure/0.23.1280.709@0.23.1280.709" timestamp="1578970707280" />
-    <state x="453" y="100" key="#com.intellij.ide.util.MemberChooser" timestamp="1579337059334">
+    <state x="453" y="100" key="#com.intellij.ide.util.MemberChooser" timestamp="1579435700419">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state x="453" y="100" key="#com.intellij.ide.util.MemberChooser/0.23.1280.709@0.23.1280.709" timestamp="1579337059334" />
+    <state x="453" y="100" key="#com.intellij.ide.util.MemberChooser/0.23.1280.709@0.23.1280.709" timestamp="1579435700419" />
     <state x="359" y="103" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1578971515168">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
     <state x="359" y="103" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.23.1280.709@0.23.1280.709" timestamp="1578971515168" />
-    <state width="1238" height="175" key="GridCell.Tab.0.bottom" timestamp="1579338779401">
+    <state width="1238" height="197" key="GridCell.Tab.0.bottom" timestamp="1579437132137">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="175" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1579338779401" />
-    <state width="1238" height="175" key="GridCell.Tab.0.center" timestamp="1579338779399">
+    <state width="1238" height="197" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1579437132137" />
+    <state width="1238" height="197" key="GridCell.Tab.0.center" timestamp="1579437132136">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="175" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1579338779399" />
-    <state width="1238" height="175" key="GridCell.Tab.0.left" timestamp="1579338779397">
+    <state width="1238" height="197" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1579437132136" />
+    <state width="1238" height="197" key="GridCell.Tab.0.left" timestamp="1579437132135">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="175" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1579338779397" />
-    <state width="1238" height="175" key="GridCell.Tab.0.right" timestamp="1579338779400">
+    <state width="1238" height="197" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1579437132135" />
+    <state width="1238" height="197" key="GridCell.Tab.0.right" timestamp="1579437132136">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="175" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1579338779400" />
-    <state x="149" y="23" width="982" height="709" key="SettingsEditor" timestamp="1579342267711">
+    <state width="1238" height="197" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1579437132136" />
+    <state x="149" y="23" width="982" height="709" key="SettingsEditor" timestamp="1579420333160">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state x="149" y="23" width="982" height="709" key="SettingsEditor/0.23.1280.709@0.23.1280.709" timestamp="1579342267711" />
+    <state x="149" y="23" width="982" height="709" key="SettingsEditor/0.23.1280.709@0.23.1280.709" timestamp="1579420333160" />
+    <state x="232" y="23" width="816" height="709" key="find.popup" timestamp="1579416394007">
+      <screen x="0" y="23" width="1280" height="709" />
+    </state>
+    <state x="232" y="23" width="816" height="709" key="find.popup/0.23.1280.709@0.23.1280.709" timestamp="1579416394007" />
     <state x="34" y="23" key="new project wizard" timestamp="1578988278216">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
     <state x="34" y="23" key="new project wizard/0.23.1280.709@0.23.1280.709" timestamp="1578988278216" />
-    <state x="347" y="23" key="refactoring.ChangeSignatureDialog" timestamp="1579004670000">
+    <state x="347" y="23" key="refactoring.ChangeSignatureDialog" timestamp="1579407052429">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state x="347" y="23" key="refactoring.ChangeSignatureDialog/0.23.1280.709@0.23.1280.709" timestamp="1579004670000" />
+    <state x="347" y="23" key="refactoring.ChangeSignatureDialog/0.23.1280.709@0.23.1280.709" timestamp="1579407052429" />
     <state x="305" y="56" width="670" height="676" key="search.everywhere.popup" timestamp="1579000875507">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
